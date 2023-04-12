@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Tilt+Neon&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+        background-image: url("./images/blurhotel.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      
+    /* background: rgb(107, 171, 214); */
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+.container{
+ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.container1{
+  
+    color: white;
+    
+    background-color: rgba(76, 147, 201, 0.377);
+    padding: 10px;
+    padding-top: 60px;
+    margin-top: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+input{
+    width: 480px;
+    border-radius: 12px;
+    padding: 4px;
+    outline: none;
+    border: none;
+    margin: 10px 0px;
+    background-color: rgba(117, 100, 117, 0.274);
+    color: white;
+    font-size: 1.3rem;
+}
+.output-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.output{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.plus-minus{
+    display: flex;
+    margin-top: 10px;
+}
+.amount{
+    font-size: 2rem;
+}
+i{
+    padding: 0px 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#people-count{
+    font-size: 1.6em;
+}
+@media  (max-width: 768px) {
+   input{
+    width: 300px;
+   }
+   .container1{
+    margin-top: 30px;
+   }
+}
+@media  (max-width: 320px) {
+    input{
+     width: 200px;
+    }
+    .container1{
+        margin-top: 20px;
+        background-color: rgba(128, 128, 128, 0.486);
+    }
+    
+ }
